@@ -23,6 +23,7 @@ function welcomeUser() {
   var welcomeUserDiv = document.getElementById("welcomeuser");
   welcomeUserDiv.style.display = "block";
   document.getElementById('welcomeuser').innerHTML = '<p> Hello, ' + username + ', looking forward to hearing your playlists! Click this message to close it.</p>';
+  welcomeUserDiv.style.cursor = "pointer";
 }
 
 function hideWelcome() {
