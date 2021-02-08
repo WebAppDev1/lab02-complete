@@ -1,4 +1,5 @@
-# Lab 2
+Lab 2
+=================
 
 - Added dashboard page with table
 - Added menu to both dashboard and index.html
