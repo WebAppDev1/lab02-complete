@@ -1,4 +1,4 @@
-/* If you're feeling fancy you can add interactivity
+/* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
 
 console.log("Hello from the Web App Dev 1 lab!");
@@ -73,7 +73,7 @@ const sonatas = {
     } else {
       document.querySelector(
         "#rating"
-      ).innerHTML = `You gave a rating of: <div class="ui star rating" ></div>`;
+      ).innerHTML = `You gave a rating of: `;
       for (let i = 0; i < userRating; i++) {
         document.querySelector(
           "#rating"
