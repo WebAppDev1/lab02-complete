@@ -83,7 +83,7 @@ const sonatas = {
   },
 };
 
-$(document).ready(function () {
+
   $("#tableoutput").html(`<h2 class='ui header'> ${sonatas.title}</h2>`);
   $("#tableoutput").append(
     `<table class='ui fixed striped table'><thead><tr><th>Song</th><th>Artist</th></tr></thead><tbody>`
@@ -105,4 +105,4 @@ $(document).ready(function () {
   rbtn.on("click", () => {
     sonatas.getRating();
   });
-});
+
